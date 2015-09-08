@@ -21,8 +21,8 @@ default:
 
 #        training:
 #            paths:
-#                - %paths.base%/src/Test/TrainingBundle/features
+#                - %paths.base%/src/Poe/Behat/TrainingBundle/features
 #            contexts:
 #                - Behat\MinkExtension\Context\MinkContext
-#                - Test\TrainingBundle\features\bootstrap\TrainingContext
+#                - Poe\Behat\TrainingBundle\features\bootstrap\TrainingContext
 
