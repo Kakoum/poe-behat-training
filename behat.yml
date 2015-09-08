@@ -1,0 +1,15 @@
+default:
+    extensions:
+        Behat\Symfony2Extension: ~
+        Behat\MinkExtension:
+            base_url:  'http://behat.demo.dev/' #must be change
+            sessions:
+                default:
+                    goutte: ~
+    suites:
+        default:
+            paths:
+                - %paths.base%/features
+            contexts:
+                - Behat\MinkExtension\Context\MinkContext
+
