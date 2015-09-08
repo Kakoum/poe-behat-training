@@ -1,0 +1,3 @@
+poe_behat_training_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: PoeBehatTrainingBundle:Default:index }

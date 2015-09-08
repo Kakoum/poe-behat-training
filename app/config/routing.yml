@@ -1,3 +1,7 @@
+poe_behat_training:
+    resource: "@PoeBehatTrainingBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
